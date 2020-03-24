@@ -25,3 +25,6 @@ Route::resource('post', 'PostController');
 Route::get('/api', function(){
     return 'api';
 })
+
+
+Route::get('/api/firebase', 'AppFirebase');
