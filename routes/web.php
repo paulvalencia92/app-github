@@ -28,3 +28,7 @@ Route::get('/api', function(){
 
 
 Route::get('/api/firebase', 'AppFirebase');
+
+Route::get('c/{id}', function ($id) {
+    
+});
