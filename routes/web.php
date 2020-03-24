@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::resource('user', 'UserController');
 
 Route::resource('post', 'PostController');
+
+
+Route::get('/api', function(){
+    return 'api';
+})
